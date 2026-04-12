@@ -1,0 +1,108 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
+cv:
+  name: Martin Pfundmair
+  headline: Senior iOS Engineer
+  location: Tokyo, Japan
+  email: martin@pfundmair.de
+  phone: "+81 (0)90 7818 7363"
+  website: https://blog.martinp7r.com
+  social_networks:
+    - network: LinkedIn
+      username: martin-pfundmair
+    - network: GitHub
+      username: martinP7r
+  sections:
+    summary:
+      - Trilingual Senior iOS Engineer with over 10 years of experience building scalable, high-performance applications for Apple platforms. Proven track record in leading cross-functional teams and delivering first-to-market features. Expert in SwiftUI, UIKit, and modular architectures, with a secondary background in full-stack web development.
+    key_achievements:
+      - bullet: "**Verify With Apple Wallet (First outside US):** Led iOS client-side implementation for Japan's first commercial deployment of Apple's identity verification API at Mercari, establishing the company as a global early adopter."
+      - bullet: "**Revenue Growth:** Delivered an 8% revenue increase for GOKKO Inc. through strategic implementation of search features and A/B testing optimization."
+      - bullet: "**Enterprise Scale:** Developed an expense billing system from scratch used by 3,000+ employees, integrating web clients, APIs, and native iOS applications."
+    experience:
+      - company: Mercari Inc.
+        position: iOS Lead, AI/LLM Team
+        start_date: 2026-04
+        end_date: present
+        location: Tokyo, JP
+        summary: Product-facing AI/LLM features across the Mercari app.
+        highlights: []
+      - company: Mercari Inc.
+        position: Senior iOS Engineer
+        start_date: 2022-01
+        end_date: 2026-03
+        location: Tokyo, JP
+        summary: "Biggest C2C marketplace in Japan (22M MAU); Fintech subdivision Merpay Inc."
+        highlights:
+          - Led the client-side implementation of Verify With Apple Wallet, the first commercial deployment of Apple's ID verification API outside the United States, coordinating with backend, design, and product stakeholders
+          - Led the team responsible for cross-domain fintech features distributed as internal SDKs
+          - Led a large-scale migration of legacy UIKit components to SwiftUI in two distinct business domains (Credit and eKYC), improving developer velocity and code maintainability
+          - Spearheaded E2E test automation initiatives, significantly increasing release stability and performance benchmarking across large modular codebases
+          - Mentored junior engineers and cross-domain hires to strengthen the mobile engineering culture
+      - company: GOKKO Inc.
+        position: Contract iOS Engineer
+        location: Tokyo, JP
+        start_date: 2025-09
+        end_date: 2026-02
+        highlights:
+          - Enhanced the Popcorn short-video streaming platform iOS client
+          - Implemented a comprehensive search feature resulting in an 8% lift in revenue validated through A/B experimentation
+          - Optimized video playback performance and user engagement metrics
+      - company: EXARING AG
+        position: Contract iOS/tvOS Engineer
+        start_date: 2025-03
+        end_date: 2025-04
+        location: Munich, DE
+        highlights:
+          - Developed features for the waipu.tv streaming platform client across iOS and tvOS
+          - Architected and shipped an improved home screen widget, increasing app re-engagement rates
+          - Refactored core networking components to improve client-side stability and data sync performance
+      - company: DISCO Corporation
+        position: iOS Engineer / Full-Stack Web Engineer
+        start_date: 2014-09
+        end_date: 2021-12
+        location: Tokyo, JP
+        summary: Semiconductor equipment manufacturer; Apple Enterprise program apps for global user base.
+        highlights:
+          - Designed and developed native apps and SDKs for Apple platforms (iOS, iPadOS, macOS) under the Apple Enterprise program
+          - Built a custom indoor positioning system utilizing iBeacon BLE devices and CoreLocation
+          - Established CI/CD pipelines using GitLab CI and Fastlane, reducing manual deployment time by 60%
+          - Developed a fully customized internal iOS keyboard and binary xcframeworks distributed via Swift Package Manager
+          - As a Full-Stack Engineer, developed an entire expense billing system for 3,000+ employees from scratch (Web, APIs, and iOS)
+    technical_skills:
+      - label: Platforms
+        details: iOS, iPadOS, macOS, tvOS, watchOS
+      - label: Swift Stack
+        details: SwiftUI, UIKit, Async/Await, Combine, Intents, WidgetKit
+      - label: Architecture
+        details: Modular Codebases, MVVM-C, Clean Architecture, VIPER
+      - label: Infrastructure
+        details: Tuist, Bazel, Fastlane, Xcode Cloud, Docker, Git
+      - label: Web/Backend
+        details: PHP (Laravel), JavaScript (Node, Vue), SQL, RESTful APIs
+      - label: Languages
+        details: Japanese (Fluent, JLPT N1), English (Fluent), German (Native)
+    education:
+      - institution: Ludwig Maximilians University, Munich
+        area: Computer Sciences & Japanese Sciences
+        degree: M.A.
+        start_date: 2007-10
+        end_date: 2014-03
+        highlights:
+          - "Grade: 1.55 (German scale, top ~10%)"
+      - institution: Surugadai University
+        area: Foreign Exchange Studies
+        degree: ""
+        start_date: 2010-04
+        end_date: 2011-03
+        location: Saitama, JP
+design:
+  theme: classic
+locale:
+  language: english
+settings:
+  current_date: today
+  render_command:
+    output_folder: rendercv_output
+    dont_generate_markdown: false
+    dont_generate_html: false
+    dont_generate_png: false
