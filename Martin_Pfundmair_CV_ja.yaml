@@ -1,0 +1,106 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
+# Reconstructed from rendercv_output_ja/Martin_Pfundmair_CV.{typ,md} (Apr 12 2026 render).
+# Original source YAML was deleted before the Apr 12 git commit; this file is reverse-engineered.
+# です・ます polite form per Japanese CV convention. Run via ./render_ja.sh (which adds CJK font fallback).
+cv:
+  name: Martin Pfundmair
+  headline: シニアiOSエンジニア
+  location: 東京都
+  email: martin@pfundmair.de
+  phone: "+81 (0)90 7818 7363"
+  website: https://blog.martinp7r.com
+  social_networks:
+    - network: LinkedIn
+      username: martin-pfundmair
+    - network: GitHub
+      username: martinP7r
+  sections:
+    summary:
+      - Appleプラットフォーム向けの開発経験10年以上を持つトリリンガル（日本語・英語・ドイツ語）のシニアiOSエンジニアです。SwiftUI、UIKit、モジュラーアーキテクチャに精通し、クロスファンクショナルチームのリードおよびファーストトゥマーケット機能の実現に実績があります。フルスタックWeb開発のバックグラウンドも有しています。
+    key_achievements:
+      - bullet: "**Verify With Apple Wallet（米国外初の商用導入）：** メルカリにおけるAppleの本人確認APIの日本初の商用実装をiOSクライアント側でリードし、グローバルにおけるアーリーアダプターとしての地位を確立しました。"
+      - bullet: "**売上向上：** 検索機能の戦略的実装とA/Bテストの最適化により、GOKKO Inc.の売上を8%向上させました。"
+      - bullet: "**エンタープライズ規模：** 3,000人以上の従業員が利用する経費精算システムをゼロから開発。Webクライアント、API、iOSアプリを統合しました。"
+    experience:
+      - company: Mercari Inc.
+        position: iOS Lead, AI/LLMチーム
+        start_date: 2022-01
+        end_date: present
+        location: 東京
+        summary: "日本最大のC2Cマーケットプレイス（MAU 2,200万）。シニアiOSエンジニア（Fintech/メルペイ）として入社後、2026年4月にAI/LLMチームのiOSリードに昇進。"
+        highlights:
+          - "**AI/LLM：** メルカリiOSアプリ全体のAI/LLM機能開発をリード"
+          - "**eKYC：** Verify With Apple Walletのクライアント側実装をリード。米国外初となるAppleの本人確認APIの商用導入を実現し、バックエンド・デザイン・プロダクトのステークホルダーと連携"
+          - "**クレジット（Fintech）：** レガシーUIKit画面50件以上のSwiftUI移行をリードし、Fintechコードベース全体の開発速度と保守性を向上"
+          - "**クロスドメイン：** 6名体制のチームをリードし、メルカリグループのアプリで利用されるSDKを開発"
+          - "**クロスドメイン：** E2Eテスト自動化を推進し、大規模モジュラーコードベースにおけるリリース安定性とパフォーマンスベンチマークを大幅に改善"
+          - "**クロスドメイン：** ジュニアエンジニアおよび他職種からの異動者のメンタリングを行い、モバイルエンジニアリング文化を強化"
+      - company: GOKKO Inc.
+        position: 業務委託 iOSエンジニア
+        start_date: 2025-09
+        end_date: 2026-01
+        location: 東京
+        highlights:
+          - ショート動画配信プラットフォーム「Popcorn」に包括的な検索機能を実装し、A/Bテストにより売上8%向上を実証
+      - company: EXARING AG
+        position: 業務委託 iOS/tvOSエンジニア
+        start_date: 2025-03
+        end_date: 2025-04
+        location: ミュンヘン（ドイツ）
+        highlights:
+          - ストリーミングプラットフォーム「waipu.tv」のiOS/tvOSクライアント機能を開発
+          - ホーム画面ウィジェットの改善を設計・リリースし、アプリのリエンゲージメント率を向上
+      - company: DISCO Corporation
+        position: iOSエンジニア / フルスタックWebエンジニア
+        start_date: 2014-09
+        end_date: 2021-12
+        location: 東京
+        summary: 半導体製造装置メーカーの全社員に配布するApple Enterpriseプログラムによるアプリ開発やウェブシステム開発
+        highlights:
+          - Apple Enterpriseプログラムの下、iOS/iPadOS向けのアプリおよびSDKを設計・開発
+          - iBeacon BLEデバイスとCoreLocationを活用した屋内測位システムを構築
+          - GitLab CIとFastlaneを用いたCI/CDパイプラインを構築し、手動デプロイ時間を60%削減
+          - カスタムiOSキーボードおよびSwift Package Manager経由で配布するバイナリxcframeworksを開発
+          - フルスタックエンジニアとして、3,000人以上の従業員向け経費精算システムをゼロから開発（Web、API、iOS）
+    technical_skills:
+      - label: プラットフォーム
+        details: iOS, iPadOS, macOS, watchOS, tvOS, Web
+      - label: Swiftスタック
+        details: SwiftUI, UIKit, Async/Await, Combine, Intents, WidgetKit
+      - label: アーキテクチャ
+        details: TCA, モジュラーコードベース, MVVM-C, Clean Architecture 等
+      - label: インフラ
+        details: Tuist, Bazel, Fastlane, Xcode Cloud, Docker, Git
+      - label: AI / エージェントコーディング
+        details: Claude Code, Codex, Spec-Driven Development (SDD)
+      - label: Web/バックエンド
+        details: PHP (Laravel), JavaScript (Node, Vue), SQL, RESTful APIs
+      - label: 言語
+        details: 日本語（流暢、JLPT N1）、英語（流暢）、ドイツ語（母語）
+    education:
+      - institution: Ludwig Maximilians University, Munich
+        area: 情報学・日本学
+        degree: M.A.
+        start_date: 2007-10
+        end_date: 2014-03
+        highlights:
+          - "成績：1.55（ドイツ評価基準、上位約10%）"
+      - institution: Surugadai University
+        area: 交換留学
+        degree: ""
+        start_date: 2010-04
+        end_date: 2011-03
+        location: 埼玉県
+design:
+  theme: engineeringresumes
+  templates:
+    single_date: YEAR年MONTH_ABBREVIATION
+locale:
+  language: japanese
+settings:
+  current_date: today
+  render_command:
+    output_folder: rendercv_output_ja
+    dont_generate_markdown: false
+    dont_generate_html: false
+    dont_generate_png: false
