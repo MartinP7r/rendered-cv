@@ -40,6 +40,7 @@ cv:
         start_date: 2025-09
         end_date: 2026-01
         location: 東京
+        summary: The Composable Architecture（TCA）で構築されたSwiftUI iOSアプリ。
         highlights:
           - ショート動画配信プラットフォーム「Popcorn」に包括的な検索機能を実装し、A/Bテストにより売上8%向上を実証
       - company: EXARING AG

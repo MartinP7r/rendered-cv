@@ -39,6 +39,7 @@ cv:
         start_date: 2025-09
         end_date: 2026-01
         location: Tokyo, JP
+        summary: SwiftUI iOS app built on The Composable Architecture (TCA).
         highlights:
           - Implemented a comprehensive search feature for the Popcorn short-video streaming platform, resulting in an 8% lift in revenue validated through A/B experimentation
       - company: EXARING AG
