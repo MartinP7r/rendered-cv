@@ -41,6 +41,10 @@ Biggest C2C marketplace in Japan (22M MAU); promoted from Senior iOS Engineer (F
 
 ## **Contract iOS Engineer**, GOKKO Inc. -- Tokyo, JP
 
+Sept 2025 – Jan 2026
+
+SwiftUI iOS app built on The Composable Architecture (TCA).
+
 - Implemented a comprehensive search feature for the Popcorn short-video streaming platform, resulting in an 8% lift in revenue validated through A/B experimentation
 
 

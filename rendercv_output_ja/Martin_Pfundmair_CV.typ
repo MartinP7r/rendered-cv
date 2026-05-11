@@ -6,7 +6,7 @@
   name: "Martin Pfundmair",
   title: "Martin Pfundmair - CV",
   footer: context { [#emph[Martin Pfundmair -- #str(here().page())\/#str(counter(page).final().first())]] },
-  top-note: [ #emph[最終更新 2026年4月] ],
+  top-note: [ #emph[最終更新 2026年5月] ],
   locale-catalog-language: "ja",
   text-direction: ltr,
   page-size: "us-letter",
@@ -80,8 +80,8 @@
   entries-highlights-space-between-bullet-and-text: 0.3em,
   date: datetime(
     year: 2026,
-    month: 4,
-    day: 12,
+    month: 5,
+    day: 11,
   ),
 )
 
@@ -151,6 +151,8 @@ Appleプラットフォーム向けの開発経験10年以上を持つトリリ�
 
   ],
   main-column-second-row: [
+    #summary[The Composable Architecture（TCA）で構築されたSwiftUI iOSアプリ。]
+
     - ショート動画配信プラットフォーム「Popcorn」に包括的な検索機能を実装し、A\/Bテストにより売上8\%向上を実証
 
   ],

@@ -6,7 +6,7 @@
   name: "Martin Pfundmair",
   title: "Martin Pfundmair - CV",
   footer: context { [#emph[Martin Pfundmair -- #str(here().page())\/#str(counter(page).final().first())]] },
-  top-note: [ #emph[Last updated in Apr 2026] ],
+  top-note: [ #emph[Last updated in May 2026] ],
   locale-catalog-language: "en",
   text-direction: ltr,
   page-size: "us-letter",
@@ -80,7 +80,7 @@
   entries-highlights-space-between-bullet-and-text: 0.3em,
   date: datetime(
     year: 2026,
-    month: 4,
+    month: 5,
     day: 11,
   ),
 )
@@ -141,14 +141,18 @@ Trilingual Senior iOS Engineer with over 10 years of experience building scalabl
   ],
 )
 
-  #regular-entry(
+#regular-entry(
   [
     #strong[Contract iOS Engineer], GOKKO Inc. -- Tokyo, JP
 
   ],
   [
+    Sept 2025 – Jan 2026
+
   ],
   main-column-second-row: [
+    #summary[SwiftUI iOS app built on The Composable Architecture (TCA).]
+
     - Implemented a comprehensive search feature for the Popcorn short-video streaming platform, resulting in an 8\% lift in revenue validated through A\/B experimentation
 
   ],

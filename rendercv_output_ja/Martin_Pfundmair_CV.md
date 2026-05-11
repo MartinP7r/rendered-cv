@@ -43,6 +43,8 @@ Appleプラットフォーム向けの開発経験10年以上を持つトリリ�
 
 2025年9月 – 2026年1月
 
+The Composable Architecture（TCA）で構築されたSwiftUI iOSアプリ。
+
 - ショート動画配信プラットフォーム「Popcorn」に包括的な検索機能を実装し、A/Bテストにより売上8%向上を実証
 
 
